@@ -6,7 +6,7 @@ jobs:
   composer-install:
     strategy:
       matrix:
-        php: [7.4]
+        php: [7.4, 8.0]
         composer: [lowest, current, highest]
     runs-on: ubuntu-latest
     container:
